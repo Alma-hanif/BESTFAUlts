@@ -18,6 +18,6 @@ contours = cv2.findContours(image_contours, cv2.RETR_LIST,
 cv2.drawContours(image_binary, [max(contours, key = cv2.contourArea)],
                 -1, (255, 255, 255), -1)
 
-cv2.imwrite('fill_contour.jpg', image_binary)
+cv2.imwrite('Output/fill_contour.jpg', image_binary)
 cv2.imshow('Small Contour', image_binary)
 cv2.waitKey(0)
