@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 
-# Let's load a simple image with 3 black squares
 image = cv2.imread(r'D:\Work\INEA_EdgeChips\Data\20200221_133005_381.ply.png')
 image = cv2.resize(image, (500, 500))
 cv2.waitKey(0)
